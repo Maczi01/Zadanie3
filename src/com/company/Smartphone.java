@@ -8,7 +8,12 @@ public class Smartphone {
     double display;
     boolean fullHD;
 
-    Smartphone(){
+    Smartphone(String p, String m, int r, double d, boolean f){
+        producer = p;
+        model = m;
+        display = d;
+        ram = r;
+        fullHD = f;
     }
 
 
